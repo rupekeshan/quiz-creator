@@ -1,0 +1,36 @@
+{
+  "title": "please",
+  "questions": [
+    {
+      "question": "what?",
+      "options": [
+        { "text": "A. 1", "correct": true },
+        { "text": "A. 2", "correct": false },
+        { "text": "A. 3", "correct": false },
+        { "text": "A. 4", "correct": false }
+      ],
+      "multi": false
+    },
+    {
+      "question": "what1?",
+      "options": [
+        { "text": "A. 1", "correct": true },
+        { "text": "A. 2", "correct": false },
+        { "text": "A. 3", "correct": false },
+        { "text": "A. 4", "correct": false }
+      ],
+      "multi": false
+    },
+    {
+      "question": "what2?",
+      "options": [
+        { "text": "A. 1", "correct": true },
+        { "text": "A. 2", "correct": false },
+        { "text": "A. 3", "correct": false },
+        { "text": "A. 4", "correct": false }
+      ],
+      "multi": false
+    }
+
+  ]
+}

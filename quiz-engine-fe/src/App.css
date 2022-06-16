@@ -1,0 +1,39 @@
+.site-card-border-less-wrapper {
+    height: 100%;
+    padding: 30px;
+}
+  
+.ant-card{
+  border-color: #c9c9c9;
+  box-shadow: 1px 1px 7px 0px #b4b4b4;
+}
+
+Header{
+  box-shadow: 0px 0px 20px 0px;
+}
+
+.quiz-wrapper{
+  padding: 25px 25px 0 25px;
+}
+
+.quiz-question{
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 0;
+  border: 1px solid #c9c9c9;
+  box-shadow: 1px 1px 7px 0px #b4b4b4;
+
+}
+
+.width-100, .ant-radio-wrapper, .ant-checkbox-wrapper, .ant-radio-group, .ant-checkbox-group, span.ant-radio+*, .ant-checkbox+span{
+  width: 100%;
+}
+
+.margin-15{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.my-layout{
+  height: 100vh;
+}

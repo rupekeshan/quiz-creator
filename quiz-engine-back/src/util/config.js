@@ -1,0 +1,18 @@
+const {
+  SECRET_TOKEN = "4MZ+IVbzHhvW14CHvD4CXJMoL/qoJSTFp91wZeb0bKi0+cSMGbpeRRJZIJeqvQg3qrivqhJcohuqbAPgYmpF3jHG2rwyVSgBqjJdgGGRREDj+WORCA90RdFz8wEEX0m3aBGqFbzXzLLHu6yh5i9RQxhVAsAWMSh84gJ2FQMwtBX3zaDRncYFPM9jdyuvYfcJqs7I0AKQf1BOAZJaHW5aALAUQb8QKsbLB+c3ZQ==",
+  REFRESH_TOKEN = "gC+d9F+aULw3h8EwHvMtS7qlAKXIgBjEzC6x1+GjN1xX77OMgPMEv48KSuMrd6j1eLxVm75l89kOXGbi1jSwSM4Hsa36OgljWAxiQArLDU6hWg1UgtsM8o8A1IadtIGq7nDhXcbjJNUOKz/grkxZp7X9rT/5Elef7p3JdJk2SffXCn5rghZhJbSIx23oX0l1eGWbB2tAC2qEXpc8pkUMKLCq6XAWxOoFuOl4kA==",
+  MONGO_STRING = "mongodb://root:root@localhost:27017/ita_notifications?retryWrites=true&w=majority&authSource=admin",
+  FRONTEND_URL = "http://localhost:3000",
+  AUTH_TOKEN_EXPIRATION = "10m",
+  REFRESH_TOKEN_EXPIRATION = "1d",
+  PORT = 4000
+} = process.env;
+module.exports = {
+  SECRET_TOKEN,
+  REFRESH_TOKEN,
+  AUTH_TOKEN_EXPIRATION,
+  FRONTEND_URL,
+  MONGO_STRING,
+  REFRESH_TOKEN_EXPIRATION,
+  PORT
+};
